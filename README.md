@@ -36,3 +36,8 @@ It requires libevent2 (and its development packages) to be installed.
 
 To install from git, run `autoreconf -i` to build the configure script,
 and then run `./configure` followed by `make`.
+
+Known Limitations
+-----------------------------------------------------------------------
+- IPv4 only
+- Echoed packets are silently truncanted at 512 byte boundary
